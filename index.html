@@ -1,0 +1,154 @@
+<!doctype html>
+<!-- Remove data-show-placeholders once all your real content is in (see README.md) -->
+<html lang="en" data-show-placeholders>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Anika Popat — Marketing</title>
+  <meta name="description" content="Anika Popat is a Boston-based marketer who builds community through brand, content, and event marketing.">
+  <meta property="og:title" content="Anika Popat — Marketing">
+  <meta property="og:description" content="Brand, content, and event marketing that builds community. Based in Boston, MA.">
+  <meta property="og:type" content="website">
+  <!-- TODO: once the site is live, add <meta property="og:image" content="https://YOUR-DOMAIN/assets/og-image.jpg"> -->
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23121211'/%3E%3Ctext x='16' y='24' font-family='Georgia,serif' font-size='22' fill='%23f2f2ef' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Tinos:ital,wght@0,400;0,700;1,400&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body class="page-home">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header site-header--stacked wrap">
+    <div class="site-header__id">
+      <a class="site-header__mark" href="index.html">Anika Popat</a>
+    </div>
+    <svg class="site-header__star" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <path d="M12 2v20M3.34 7l17.32 10M3.34 17L20.66 7" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" fill="none"/>
+    </svg>
+    <nav class="site-header__nav" aria-label="Main">
+      <ul role="list">
+        <li><a href="work.html">Work</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">
+      <span class="smallcaps" data-label>Menu</span>
+    </button>
+  </header>
+
+  <div class="menu" id="site-menu" aria-hidden="true">
+    <nav class="menu__inner wrap" aria-label="Main (menu)">
+      <ol class="menu__list" role="list">
+        <li class="menu__item"><a class="menu__link" href="work.html"><span class="menu__num">01</span><span class="menu__label">Work</span></a></li>
+        <li class="menu__item"><a class="menu__link" href="about.html"><span class="menu__num">02</span><span class="menu__label">About</span></a></li>
+        <li class="menu__item"><a class="menu__link" href="contact.html"><span class="menu__num">03</span><span class="menu__label">Contact</span></a></li>
+      </ol>
+    </nav>
+    <div class="menu__foot wrap">
+      <span>© <span data-year>2026</span> Anika Popat</span>
+      <ul role="list">
+        <li><a href="https://www.linkedin.com/in/anikapopat">LinkedIn</a></li>
+        <li><a href="assets/Anika-Popat-Resume.pdf">Resume</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-name">
+      <h1 class="hero__name" id="hero-name"><span>Anika</span> <span>Popat</span></h1>
+
+      <p class="hero__intro">I build <span class="hl">community</span> through marketing, with rebrands, social content, and events that turn followers into members.</p>
+
+      <div class="hero__bar">
+        <a class="paren-link" href="#projects">( See the work )</a>
+      </div>
+    </section>
+
+    <!-- SCROLLING BAND: edit the words inside .marquee__group (keep both groups identical) -->
+    <section class="marquee" aria-label="What I do">
+      <p class="visually-hidden">Brand, content, events, community, social media, rebrands, and campaigns.</p>
+      <div class="marquee__track" aria-hidden="true">
+        <div class="marquee__group"><span>Brand</span><span class="marquee__star"></span><span>Content</span><span class="marquee__star"></span><span>Events</span><span class="marquee__star"></span><span>Community</span><span class="marquee__star"></span><span>Social media</span><span class="marquee__star"></span><span>Rebrands</span><span class="marquee__star"></span><span>Campaigns</span><span class="marquee__star"></span></div>
+        <div class="marquee__group"><span>Brand</span><span class="marquee__star"></span><span>Content</span><span class="marquee__star"></span><span>Events</span><span class="marquee__star"></span><span>Community</span><span class="marquee__star"></span><span>Social media</span><span class="marquee__star"></span><span>Rebrands</span><span class="marquee__star"></span><span>Campaigns</span><span class="marquee__star"></span></div>
+      </div>
+    </section>
+
+    <!-- RESULTS AT A GLANCE: numbers come from the two case studies / resume -->
+    <section class="stats wrap" aria-labelledby="stats-heading">
+      <h2 id="stats-heading" class="visually-hidden">Results at a Glance</h2>
+      <dl class="stats__list">
+        <div><dt>Instagram growth<span>Women in Business</span></dt><dd>+361%</dd></div>
+        <div><dt>Membership growth<span>Women in Business</span></dt><dd>150%+</dd></div>
+        <div><dt>Instagram growth<span>South Asian Student Association</span></dt><dd>+259%</dd></div>
+        <div><dt>Membership growth<span>South Asian Student Association</span></dt><dd>175%+</dd></div>
+      </dl>
+    </section>
+
+    <!--
+      ================================================================
+      PROJECTS STRIP: one tile per project, sized for 2–3 projects.
+      Delete a whole <li class="strip__item"> to show two; the tiles
+      stretch to fill the width automatically.
+      For each tile:
+        • Image: replace <span class="strip__ph">…</span> with
+            <img src="assets/work/your-image.jpg" alt="Short description" width="1200" height="1500" loading="lazy">
+          and delete the style="--ph-bg:…" (it's only the placeholder color)
+        • Title, category tag, result stat
+        • href → your case study page (copy case-study.html)
+        • Delete data-placeholder when it's real
+      ================================================================
+    -->
+    <section class="strip" id="projects" aria-labelledby="projects-heading">
+      <h2 id="projects-heading" class="visually-hidden">Selected Work</h2>
+      <ul class="strip__list" role="list">
+        <li class="strip__item">
+          <a class="strip__link" href="women-in-business.html">
+            <div class="strip__media cover-graphic" style="--ph-bg:#e2e6e8; --graphic-w:46%">
+              <img src="assets/work/women-in-business/heel.svg" alt="" width="4014" height="3656">
+            </div>
+            <div class="strip__cap">
+              <h3 class="strip__title">Women in Business, Suffolk University</h3>
+              <span class="tag">Brand · Content · Events</span>
+            </div>
+            <p class="strip__stat"><span class="strip__num">+361%</span> Instagram growth</p>
+          </a>
+        </li>
+        <li class="strip__item">
+          <a class="strip__link" href="south-asian-student-association.html">
+            <div class="strip__media cover-graphic" style="--ph-bg:#fff3b0; --graphic-w:62%">
+              <img src="assets/work/south-asian-student-association/lotus.svg" alt="" width="568" height="368">
+            </div>
+            <div class="strip__cap">
+              <h3 class="strip__title">South Asian Student Association, Suffolk University</h3>
+              <span class="tag">Brand · Content · Events</span>
+            </div>
+            <p class="strip__stat"><span class="strip__num">+259%</span> Instagram growth</p>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="cta-band" aria-labelledby="cta-heading">
+      <div class="cta wrap">
+        <h2 class="cta__line" id="cta-heading">Let’s Connect :)</h2>
+        <a class="rule-link" href="contact.html">Get in touch <span class="rule-link__arrow" aria-hidden="true">→</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner wrap">
+      <span>© <span data-year>2026</span> Anika Popat</span>
+      <ul role="list">
+        <li><a href="work.html">Work</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

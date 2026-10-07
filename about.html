@@ -1,0 +1,140 @@
+<!doctype html>
+<!-- Remove data-show-placeholders once all your real content is in (see README.md) -->
+<html lang="en" data-show-placeholders>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About — Anika Popat</title>
+  <meta name="description" content="Anika Popat: Boston-based marketer. Suffolk University BSBA: Marketing major, Digital Marketing concentration, Artificial Intelligence minor.">
+  <meta property="og:title" content="About — Anika Popat">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23121211'/%3E%3Ctext x='16' y='24' font-family='Georgia,serif' font-size='22' fill='%23f2f2ef' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Tinos:ital,wght@0,400;0,700;1,400&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header wrap">
+    <a class="site-header__mark" href="index.html">Anika Popat</a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">
+      <span class="smallcaps" data-label>Menu</span>
+    </button>
+  </header>
+
+  <div class="menu" id="site-menu" aria-hidden="true">
+    <nav class="menu__inner wrap" aria-label="Main">
+      <ol class="menu__list" role="list">
+        <li class="menu__item"><a class="menu__link" href="work.html"><span class="menu__num">01</span><span class="menu__label">Work</span></a></li>
+        <li class="menu__item"><a class="menu__link" href="about.html" aria-current="page"><span class="menu__num">02</span><span class="menu__label">About</span></a></li>
+        <li class="menu__item"><a class="menu__link" href="contact.html"><span class="menu__num">03</span><span class="menu__label">Contact</span></a></li>
+      </ol>
+    </nav>
+    <div class="menu__foot wrap">
+      <span>© <span data-year>2026</span> Anika Popat</span>
+      <ul role="list">
+        <li><a href="https://www.linkedin.com/in/anikapopat">LinkedIn</a></li>
+        <li><a href="assets/Anika-Popat-Resume.pdf">Resume</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <main id="main">
+    <div class="wrap">
+      <!-- EDIT: your opening statement. Keep it to 2–3 sentences; it's set very large. -->
+      <h1 class="hero__name hero__name--solo"><em class="hl">I’m Anika!</em></h1>
+
+      <div class="about-body">
+        <!--
+          PHOTO: save your portrait as assets/anika-portrait.jpg (portrait crop, ~1200×1500)
+          then replace the placeholder <span> below with:
+            <img src="assets/anika-portrait.jpg" alt="Portrait of Anika Popat" width="1200" height="1500">
+          It's shown in black & white via CSS; delete the `filter` line in
+          .portrait img (css/styles.css) if you'd rather keep it in color.
+        -->
+        <figure class="portrait" data-placeholder="your photo">
+          <span class="portrait__ph">Portrait photo, 4:5</span>
+        </figure>
+
+        <div class="bio">
+          <p>Hi, I’m Anika! I build community through marketing. My experience spans social media strategy, event marketing, content creation, and data-driven campaigns, helping brands grow their audience and bring ideas to life. I’m drawn to work where creativity meets strategy, and at the core of it all, I care about real connection, with customers, communities, and clients alike.</p>
+          <a class="rule-link" href="contact.html">Let’s talk <span class="rule-link__arrow" aria-hidden="true">→</span></a>
+        </div>
+      </div>
+
+      <section class="facts" aria-labelledby="skills-heading">
+        <div>
+          <h2 id="skills-heading">Skills &amp; Background</h2>
+        </div>
+
+        <div class="skills">
+          <!-- EDIT: tune these lists to match your resume -->
+          <div>
+            <h3>Influencer Marketing</h3>
+            <ul role="list">
+              <li>Creator sourcing &amp; vetting</li>
+              <li>Outreach &amp; negotiation</li>
+              <li>Seeding &amp; gifting programs</li>
+              <li>Briefs &amp; usage rights</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Content Strategy</h3>
+            <ul role="list">
+              <li>Editorial calendars</li>
+              <li>Short-form video (TikTok, Reels)</li>
+              <li>Copywriting &amp; brand voice</li>
+              <li>Community management</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Campaigns &amp; Analytics</h3>
+            <ul role="list">
+              <li>Paid social (Meta, TikTok)</li>
+              <li>Email &amp; lifecycle</li>
+              <li>A/B testing</li>
+              <li>Reporting &amp; KPIs</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Tools</h3>
+            <ul role="list">
+              <li>Meta Business Suite</li>
+              <li>Google Analytics 4</li>
+              <li>Canva · CapCut</li>
+              <li>ChatGPT · Claude</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="facts" aria-labelledby="edu-heading">
+        <div>
+          <h2 id="edu-heading">Education</h2>
+        </div>
+        <dl class="edu">
+          <dt class="edu__school">Suffolk University</dt>
+          <dd>Bachelor of Science in Business Administration (BSBA)</dd>
+          <dd>Marketing Major, Digital Marketing Concentration, Artificial Intelligence Minor</dd>
+          <dd>Class of 2026</dd>
+        </dl>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner wrap">
+      <span>© <span data-year>2026</span> Anika Popat</span>
+      <ul role="list">
+        <li><a href="work.html">Work</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

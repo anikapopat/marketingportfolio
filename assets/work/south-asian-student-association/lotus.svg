@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="16 62 568 368" role="img" aria-label="Lotus from the SASA logo">
+  <!-- Vector redraw of the lotus motif from the SASA logo.
+       The gaps between petals are real cut-outs (a mask), so the lotus
+       works on any background color. -->
+  <defs>
+    <!-- One half of the flower; in the mask, white = pink shows, black = cut away -->
+    <g id="half" stroke-width="10" stroke-linejoin="round">
+      <!-- scroll flourish (behind the petals) -->
+      <path fill="none" stroke="#fff" stroke-width="22" stroke-linecap="round"
+            d="M266 352 C 222 374, 172 402, 112 400 C 62 398, 26 372, 30 340 C 34 308, 74 300, 90 322 C 100 338, 86 358, 68 352"/>
+      <path fill="#fff" d="M222 368 C 206 344, 188 332, 166 338 C 182 346, 194 358, 202 378 Z"/>
+      <!-- petals back-to-front; the black stroke carves each gap -->
+      <path fill="#fff" stroke="#000" d="M298 330 C 228 344, 128 322, 92 224 C 180 220, 252 262, 298 320 Z"/>
+      <path fill="#fff" stroke="#000" d="M270 302 C 200 284, 128 242, 104 170 C 168 184, 236 236, 278 294 Z"/>
+      <path fill="#fff" stroke="#000" d="M274 290 C 220 254, 160 202, 142 122 C 196 156, 250 214, 284 282 Z"/>
+      <path fill="#fff" stroke="#000" d="M290 300 C 232 266, 200 190, 224 96 C 268 140, 292 214, 298 290 Z"/>
+    </g>
+    <mask id="lotus" maskUnits="userSpaceOnUse" x="0" y="0" width="600" height="440">
+      <use href="#half"/>
+      <use href="#half" transform="translate(600 0) scale(-1 1)"/>
+      <!-- centre petal (on top) -->
+      <path fill="#fff" stroke="#000" stroke-width="10" stroke-linejoin="round"
+            d="M300 74 C 334 124, 352 180, 348 222 C 344 268, 324 300, 300 330 C 276 300, 256 268, 252 222 C 248 180, 266 124, 300 74 Z"/>
+      <!-- dots -->
+      <circle cx="300" cy="350" r="13" fill="#fff"/>
+      <circle cx="300" cy="398" r="25" fill="#fff"/>
+    </mask>
+  </defs>
+
+  <rect x="0" y="0" width="600" height="440" fill="#f17789" mask="url(#lotus)"/>
+</svg>
